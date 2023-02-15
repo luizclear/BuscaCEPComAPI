@@ -13,6 +13,8 @@
 		65B7C66F299D102100ECF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B7C66D299D102100ECF0A0 /* Main.storyboard */; };
 		65B7C671299D102300ECF0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B7C670299D102300ECF0A0 /* Assets.xcassets */; };
 		65B7C674299D102300ECF0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B7C672299D102300ECF0A0 /* LaunchScreen.storyboard */; };
+		65B7C67C299D476700ECF0A0 /* APIBuscaCEP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7C67B299D476700ECF0A0 /* APIBuscaCEP.swift */; };
+		65B7C67E299D478B00ECF0A0 /* Cep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7C67D299D478B00ECF0A0 /* Cep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		65B7C670299D102300ECF0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B7C673299D102300ECF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B7C675299D102300ECF0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B7C67B299D476700ECF0A0 /* APIBuscaCEP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBuscaCEP.swift; sourceTree = "<group>"; };
+		65B7C67D299D478B00ECF0A0 /* Cep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				65B7C670299D102300ECF0A0 /* Assets.xcassets */,
 				65B7C672299D102300ECF0A0 /* LaunchScreen.storyboard */,
 				65B7C675299D102300ECF0A0 /* Info.plist */,
+				65B7C67B299D476700ECF0A0 /* APIBuscaCEP.swift */,
+				65B7C67D299D478B00ECF0A0 /* Cep.swift */,
 			);
 			path = BuscadorDeCEP;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B7C67C299D476700ECF0A0 /* APIBuscaCEP.swift in Sources */,
+				65B7C67E299D478B00ECF0A0 /* Cep.swift in Sources */,
 				65B7C66C299D102100ECF0A0 /* ViewController.swift in Sources */,
 				65B7C668299D102100ECF0A0 /* AppDelegate.swift in Sources */,
 				65B7C66A299D102100ECF0A0 /* SceneDelegate.swift in Sources */,
